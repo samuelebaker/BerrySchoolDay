@@ -13,9 +13,9 @@
     ],
     "provider": [
       {
-        "id": "[Personal Dropbox]",
+        "id": "https://www.dropbox.com/s/u3id2pv7ho559sm/09%20School%20Day%20copy.mp3?dl=1",
         "type": "Agent",
-        "label": { "en": [ "Samuel Baker " ] }
+        "label": { "en": [ "Samuel Baker Personal Dropbox" ] }
       }
     ],
     "items": [
@@ -33,7 +33,7 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "https://www.dropbox.com/s/u3id2pv7ho559sm/09%20School%20Day%20copy.mp3?dl=1",
+                  "id": "https://www.dropbox.com/s/u3id2pv7ho559sm/09%20School%20Day%20copy.mp3?dl=0",
                   "type": "Sound",
                   "format": "audio/mp3",
                   "duration": 2.43
