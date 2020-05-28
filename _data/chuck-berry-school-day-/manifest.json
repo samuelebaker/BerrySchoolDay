@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://samuelebaker.github.io/BerrySchoolDay/chuck-berry-school-day-/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Chuck Berry, "School Day"" ] },
+    "homepage": [
+      {
+        "id": "https://www.dropbox.com/s/u3id2pv7ho559sm/09%20School%20Day%20copy.mp3?dl=0",
+        "type": "Text",
+        "label": { "en": [ "Home page for Chuck Berry, "School Day"" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "[Personal Dropbox]",
+        "type": "Agent",
+        "label": { "en": [ "Samuel Baker " ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://samuelebaker.github.io/BerrySchoolDay/chuck-berry-school-day-/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2.43,
+        "items": [
+          {
+            "id": "https://samuelebaker.github.io/BerrySchoolDay/chuck-berry-school-day-/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://samuelebaker.github.io/BerrySchoolDay/chuck-berry-school-day-/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.dropbox.com/s/u3id2pv7ho559sm/09%20School%20Day%20copy.mp3?dl=1",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 2.43
+                },
+                "target": "https://samuelebaker.github.io/BerrySchoolDay/chuck-berry-school-day-/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
